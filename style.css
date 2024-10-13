@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: rgb(54, 49, 49);
+    width: 17vw;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li  {
+    list-style: none;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    /* width: 100vh; */
+}
+
+.main {
+     width: 90vw;
+     /* background-color: purple; */
+}
+
+.Info-container {
+    /* background-color: pink; */
+    margin: 144px auto;
+    width: 80vw;
+    height: 58vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.my-picture img {
+    height: 58vh;
+   border-radius: 100px;
+}
+
+.My-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 90px 50px;
+}
+
+.hello {
+font-size: 55px;
+/* color: black; */
+}
+
+.name {
+font-size: 40px;
+font-weight: bold;
+/* color: black; */
+}
+
+.About {
+font-size: 30px;
+/* color: black; */
+}
+
+.buttons button {
+   padding: 9px 14px;
+   border-radius: 22px;
+   color: #fff;
+   background-color: dodgerblue;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.more-about {
+font-size: 22px;
+margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
